@@ -55,14 +55,10 @@ body {
         flex: 1 0 0;
         background: var(--light, #E7DCCA);
     }
-
-    .nav-item {
+    
+    .nav-item a{
         text-decoration: none;
-        /*시발 얘 왜 안 됨???*/
-        list-style-type: none;
-        color: #172B54;
     }
-
 
     /*-------h1--------*/
     .h1-content {
@@ -309,7 +305,7 @@ body {
         gap: 16px;
     }
 
-    .footer-item {
+    .footer-item a{
         color: var(--lightlight, #F7F0E6);
         font-size: 16px;
         font-style: normal;
