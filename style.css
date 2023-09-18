@@ -44,8 +44,8 @@ body {
         background: var(--light, #E7DCCA);
     }
 
-    
-    nav a{
+
+    nav a {
         text-decoration: none;
         color: #172B54;
     }
@@ -128,9 +128,9 @@ body {
     /*--------- VIDEO 시발 얘 수정해야함 -----------*/
     .video {
         width: 100%;
-         height: 600px;
-         object-fit: cover;
-         z-index: -100;
+        height: 600px;
+        object-fit: cover;
+        z-index: -100;
     }
 
     /*------------ button -----------*/
@@ -292,7 +292,7 @@ body {
         background: #15274A;
     }
 
-    footer a{
+    footer a {
         color: var(--lightlight, #F7F0E6);
         font-size: 16px;
         font-style: normal;
@@ -499,5 +499,86 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: 120%;
+    }
+
+
+    /*--------------CONTACT PAGE-------------*/
+    #contact-banner {
+        display: flex;
+        height: 813px;
+        background: var(--navy, #172B54);
+
+        display: flex;
+        height: 639px;
+        padding: 80px;
+        align-items: flex-start;
+        gap: 127px;
+        flex-shrink: 0;
+    }
+
+    #contact-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+    }
+
+    #contact-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+
+
+
+    #input-name {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        font-size: 14px;
+    }
+
+    #form-layout {
+        display: flex;
+        width: 616px;
+        height: 357px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 43px;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        align-self: stretch;
+        align-items: flex-start;
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    textarea {
+        background-color: var(--beige, #D6C1A6);
+        color: #172B54;
+        display: flex;
+        height: 48px;
+        padding: 2% 8%;
+        align-items: flex-start;
+        gap: 8px;
+        align-self: stretch;
+    }
+
+    .button {
+        background: var(--light, #E7DCCA);
+        display: flex;
+        width: 289px;
+        height: 48px;
+        padding: 16px 12px;
+        justify-content: center;
+        align-items: center;
+        color: var(--navy, #172B54);
     }
 }
