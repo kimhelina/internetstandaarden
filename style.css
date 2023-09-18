@@ -127,9 +127,10 @@ body {
 
     /*--------- VIDEO 시발 얘 수정해야함 -----------*/
     .video {
-        display: flex;
-        justify-content: center;
-        align-content: center;
+        width: 100%;
+         height: 600px;
+         object-fit: cover;
+         z-index: -100;
     }
 
     /*------------ button -----------*/
