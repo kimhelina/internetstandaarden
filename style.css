@@ -585,38 +585,51 @@ body {
 
     /*CHECKBOX*/
 
+    /* Apply box-sizing to all elements inside .checkbox-wrapper-4 */
     .checkbox-wrapper-4 * {
         box-sizing: border-box;
     }
 
+    /* Style the label element */
     .checkbox-wrapper-4 .cbx {
+        /* Disable text selection */
         -webkit-user-select: none;
         user-select: none;
+
+        /* Cursor style on hover */
         cursor: pointer;
+
+        /* Padding, border-radius, and hover transition */
         padding: 6px 8px;
         border-radius: 6px;
         overflow: hidden;
         transition: all 0.2s ease;
         display: inline-block;
+
         color: #D6C1A6;
         font-size: 12px;
     }
 
+    /* Add margin to labels except the last one for spacing */
     .checkbox-wrapper-4 .cbx:not(:last-child) {
         margin-right: 6px;
     }
 
+    /* Hover effect on label */
     .checkbox-wrapper-4 .cbx:hover {
         background: rgba(0, 119, 255, 0.06);
     }
 
+    /* Style the <span> elements inside the label */
     .checkbox-wrapper-4 .cbx span {
         float: left;
         vertical-align: middle;
         transform: translate3d(0, 0, 0);
     }
 
+    /* Style the custom checkbox icon (first <span>) */
     .checkbox-wrapper-4 .cbx span:first-child {
+        /* Checkbox icon styling */
         position: relative;
         width: 18px;
         height: 18px;
@@ -627,6 +640,7 @@ body {
         box-shadow: 0 1px 1px rgba(0, 16, 75, 0.05);
     }
 
+    /* Style the SVG path inside the custom checkbox icon */
     .checkbox-wrapper-4 .cbx span:first-child svg {
         position: absolute;
         top: 3px;
@@ -643,30 +657,30 @@ body {
         transform: translate3d(0, 0, 0);
     }
 
+    /* Style the text part of the label */
     .checkbox-wrapper-4 .cbx span:last-child {
         padding-left: 8px;
         line-height: 18px;
     }
 
+    /* Styles for the custom checkbox icon when checked */
     .checkbox-wrapper-4 .cbx:hover span:first-child {
         border-color: #D6C1A6;
     }
-
     .checkbox-wrapper-4 .inp-cbx {
         position: absolute;
         visibility: hidden;
     }
-
     .checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child {
         background: #E7DCCA;
         border-color: #E7DCCA;
         animation: wave-4 0.4s ease;
     }
-
     .checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child svg {
         stroke-dashoffset: 0;
     }
 
+    /* Styling for the SVG used as an inline element */
     .checkbox-wrapper-4 .inline-svg {
         position: absolute;
         width: 0;
@@ -675,6 +689,7 @@ body {
         user-select: none;
     }
 
+    /* Media query for smaller screens */
     @media screen and (max-width: 640px) {
         .checkbox-wrapper-4 .cbx {
             width: 100%;
@@ -682,6 +697,7 @@ body {
         }
     }
 
+    /* Keyframe animations for the checkbox animation */
     @-moz-keyframes wave-4 {
         50% {
             transform: scale(0.9);
