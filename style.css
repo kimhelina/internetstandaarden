@@ -128,22 +128,24 @@ body {
     /*--------- VIDEO 시발 얘 수정해야함 -----------*/
     .video {
         width: 100%;
-        max-width: 100%; /* Set the maximum width to 100% of its container */
+        max-width: 100%;
+        /* Set the maximum width to 100% of its container */
     }
 
     /*------------ button -----------*/
     .fake-btn {
         display: flex;
-    height: 56px;
-    padding: 16px;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid var(--navy, #172B54);
-    background: var(--navy, #172B54);
-    color: var(--default-white, #F7F0E6);
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
+        height: 56px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid var(--navy, #172B54);
+        background: var(--navy, #172B54);
+        color: var(--default-white, #F7F0E6);
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
     }
+
     .fake-btn:hover {
         background-color: var(--default-white, #F7F0E6);
         color: var(--navy, #172B54);
@@ -656,15 +658,18 @@ body {
     .checkbox-wrapper-4 .cbx:hover span:first-child {
         border-color: #D6C1A6;
     }
+
     .checkbox-wrapper-4 .inp-cbx {
         position: absolute;
         visibility: hidden;
     }
+
     .checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child {
         background: #E7DCCA;
         border-color: #E7DCCA;
         animation: wave-4 0.4s ease;
     }
+
     .checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child svg {
         stroke-dashoffset: 0;
     }
@@ -710,6 +715,4 @@ body {
             transform: scale(0.9);
         }
     }
-
-
 }
