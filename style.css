@@ -127,7 +127,8 @@ body {
 
     /*--------- VIDEO 시발 얘 수정해야함 -----------*/
     .video {
-        width: fit-content;
+        width: 100%;
+        max-width: 100%; /* Set the maximum width to 100% of its container */
     }
 
     /*------------ button -----------*/
@@ -646,7 +647,7 @@ body {
         top: 3px;
         left: 2px;
         fill: none;
-        stroke: #D6C1A6;
+        stroke: #172B54;
         stroke-width: 2;
         stroke-linecap: round;
         stroke-linejoin: round;
