@@ -24,7 +24,7 @@
 body {
     font-family: 'Montserrat';
     color: var(--navy, #172B54);
-    font-size: 18px;
+    font-size: 1.1em;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
@@ -33,15 +33,12 @@ body {
 /*---------- NAVBAR -------*/
 #navbar {
     display: flex;
-    height: 30%;
-    padding: 16px 80px;
+    height: 50%;
+    padding: 1% 8%;
     align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
     border-bottom: 1px solid var(--cool-gray-20, #DDE1E6);
     background: var(--light, #E7DCCA);
 }
-
 
 nav a {
     text-decoration: none;
@@ -65,19 +62,17 @@ nav ul {
 .h1-content {
     color: var(--navy, #172B54);
     font-family: 'Montserrat-bold';
-    font-size: 42px;
+    font-size: 3em;
     line-height: 120%;
 }
 
 .h2-content {
     font-family: 'Montserrat-bold';
-    align-self: stretch;
     color: var(--navy, #172B54);
     font-size: 32px;
     font-weight: 700;
     line-height: 120%;
 }
-
 
 
 /* SUBTITLE */
@@ -94,7 +89,6 @@ nav ul {
 /*------- body font style ---------*/
 .body-white {
     color: var(--lightlight, #F7F0E6);
-    align-self: stretch;
     text-align: center;
 }
 
@@ -103,7 +97,6 @@ nav ul {
     color: var(--lightlight, #F7F0E6);
     font-family: Montserrat-bold;
     font-size: 54px;
-
 }
 
 .banner-subtitle {
@@ -138,8 +131,8 @@ video {
 /*------------ button -----------*/
 .fake-btn {
     display: flex;
-    height: 56px;
-    padding: 16px;
+    height: 20%;
+    padding: 4%;
     justify-content: center;
     align-items: center;
     border: 2px solid var(--navy, #172B54);
@@ -526,6 +519,8 @@ h3 {
     gap: 16px;
     align-self: stretch;
     font-size: 14px;
+    text-align: left;
+
 }
 
 #form-layout {
@@ -540,7 +535,6 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    align-self: stretch;
     align-items: flex-start;
     font-size: 14px;
     color: var(--navy, #172B54);
@@ -555,7 +549,6 @@ textarea {
     padding: 2% 8%;
     align-items: flex-start;
     gap: 8px;
-    align-self: stretch;
 }
 
 #email {
