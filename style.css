@@ -151,8 +151,8 @@ video {
 /* ------------ INTRO ----------------*/
 #article1 {
     display: flex;
-    height: 317px;
-    padding: 40px;
+    height: 50%;
+    padding: 2%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -182,9 +182,9 @@ video {
 /*-----Light Layout------*/
 .light-layout {
     display: flex;
-    padding: 80px;
+    padding: 4em;
     align-items: center;
-    gap: 80px;
+    gap: 6em;
     background-color: #F7F0E6;
     color: #172B54;
     flex-wrap: wrap;
@@ -193,9 +193,9 @@ video {
 /* -------- Beige Layout -----------*/
 .beige-layout {
     display: flex;
-    padding: 80px;
+    padding: 4em;
     align-items: center;
-    gap: 80px;
+    gap: 6em;
     background-color: #E7DCCA;
     color: #172B54;
     flex-wrap: wrap;
@@ -204,42 +204,20 @@ video {
 /*---------Layout content ----------*/
 .layout-content {
     display: flex;
-    padding: 32px 0px;
+    padding: 1em;
     flex-direction: column;
     align-items: flex-start;
-    gap: 64px;
-    flex: 1 0 0;
-}
-
-
-
-
-/* -----------INTRO CUISINE BANNER ----------*/
-#article3 {
-    display: flex;
-    padding: 80px;
-    align-items: center;
-    gap: 80px;
-    background-color: #E7DCCA;
-    color: #172B54;
-}
-
-#intro-cuisine {
-    display: flex;
-    padding: 32px 0px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 64px;
+    gap: 4em;
     flex: 1 0 0;
 }
 
 /*------------ GALLERY ------------*/
 #gallery-banner {
     display: flex;
-    padding: 80px;
+    padding: 5em;
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 3em;
     background-color: #F7F0E6;
 }
 
@@ -247,14 +225,13 @@ video {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
     align-self: stretch;
 }
 
 .gallery_img_container {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 1.2em;
     flex-wrap: wrap;
 }
 
@@ -262,18 +239,18 @@ video {
     color: var(--navy, #172B54);
     text-align: center;
     font-family: Montserrat-bold;
-    font-size: 42px;
+    font-size: 2.5em;
     line-height: 120%;
 }
 
 /*------------------- FOOTER --------------*/
 #footer {
     display: flex;
-    padding: 48px 80px;
+    padding: 3rem 5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 4em;
     background: #15274A;
 }
 
