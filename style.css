@@ -30,697 +30,692 @@ body {
     line-height: 120%;
 }
 
-@media (min-width: 1280px) {
-
-    /*---------- NAVBAR -------*/
-    #navbar {
-        display: flex;
-        height: 60px;
-        padding: 16px 80px;
-        align-items: center;
-        gap: 10px;
-        flex-shrink: 0;
-        border-bottom: 1px solid var(--cool-gray-20, #DDE1E6);
-        background: var(--light, #E7DCCA);
-    }
-
-
-    nav a {
-        text-decoration: none;
-        color: #172B54;
-    }
-
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 42px;
-        flex: 1 0 0;
-        background: var(--light, #E7DCCA);
-        text-decoration: none;
-    }
-
-    /*-------h1--------*/
-    .h1-content {
-        color: var(--navy, #172B54);
-        font-family: 'Montserrat-bold';
-        font-size: 42px;
-        line-height: 120%;
-    }
-
-    .h2-content {
-        font-family: 'Montserrat-bold';
-        align-self: stretch;
-        color: var(--navy, #172B54);
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 120%;
-    }
-
-
-
-    /* SUBTITLE */
-    .subtitle {
-        color: var(--navy, #172B54);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 120%;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-
-    /*------- body font style ---------*/
-    .body-white {
-        color: var(--lightlight, #F7F0E6);
-        align-self: stretch;
-        text-align: center;
-    }
-
-    /*------------- BANNER TYPO -----------*/
-    .banner-typo {
-        color: var(--lightlight, #F7F0E6);
-        font-family: Montserrat-bold;
-        font-size: 54px;
-
-    }
-
-    .banner-subtitle {
-        color: var(--lightlight, #F7F0E6);
-        font-size: 42px;
-        line-height: 120%;
-    }
-
-    .mini-title {
-        color: var(--light, #E7DCCA);
-        text-align: center;
-        font-size: 20px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-    }
-
-
-    /*--------- VIDEO 시발 얘 수정해야함 -----------*/
-    .video {
-        width: 100%;
-        max-width: 100%;
-        /* Set the maximum width to 100% of its container */
-    }
-
-    /*------------ button -----------*/
-    .fake-btn {
-        display: flex;
-        height: 56px;
-        padding: 16px;
-        justify-content: center;
-        align-items: center;
-        border: 2px solid var(--navy, #172B54);
-        background: var(--navy, #172B54);
-        color: var(--default-white, #F7F0E6);
-        text-decoration: none;
-        transition: background-color 0.3s, color 0.3s;
-    }
-
-    .fake-btn:hover {
-        background-color: var(--default-white, #F7F0E6);
-        color: var(--navy, #172B54);
-    }
-
-
-    /* ------------ INTRO ----------------*/
-    #article1 {
-        display: flex;
-        height: 317px;
-        padding: 40px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 48px;
-        flex-shrink: 0;
-        background: var(--navy, #172B54);
-    }
-
-    #title {
-        color: var(--lightlight, #F7F0E6);
-        font-family: Montserrat-bold;
-        text-align: center;
-        font-size: 42px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 120%;
-    }
-
-    #subtitle {
-        color: var(--lightlight, #F7F0E6);
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 100%;
-    }
-
-    /*-----Light Layout------*/
-    .light-layout {
-        display: flex;
-        padding: 80px;
-        align-items: center;
-        gap: 80px;
-        background-color: #F7F0E6;
-        color: #172B54;
-    }
-
-    /* -------- Beige Layout -----------*/
-    .beige-layout {
-        display: flex;
-        padding: 80px;
-        align-items: center;
-        gap: 80px;
-        background-color: #E7DCCA;
-        color: #172B54;
-    }
-
-    /*---------Layout content ----------*/
-    .layout-content {
-        display: flex;
-        padding: 32px 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 64px;
-        flex: 1 0 0;
-    }
-
-
-
-
-    /* -----------INTRO CUISINE BANNER ----------*/
-    #article3 {
-        display: flex;
-        padding: 80px;
-        align-items: center;
-        gap: 80px;
-        background-color: #E7DCCA;
-        color: #172B54;
-    }
-
-    #intro-cuisine {
-        display: flex;
-        padding: 32px 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 64px;
-        flex: 1 0 0;
-    }
-
-    /*------------ GALLERY ------------*/
-    #gallery-banner {
-        display: flex;
-        padding: 80px;
-        flex-direction: column;
-        align-items: center;
-        gap: 34px;
-        background-color: #F7F0E6;
-    }
-
-    #top {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        align-self: stretch;
-    }
-
-    .gallery_img_container {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        flex-wrap: wrap;
-    }
-
-    .h1-for-gallery {
-        color: var(--navy, #172B54);
-        text-align: center;
-        font-family: Montserrat-bold;
-        font-size: 42px;
-        line-height: 120%;
-    }
-
-    /*------------------- FOOTER --------------*/
-    #footer {
-        display: flex;
-        padding: 48px 80px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 48px;
-        background: #15274A;
-    }
-
-    footer a {
-        color: var(--lightlight, #F7F0E6);
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 100%;
-        list-style-type: none;
-        text-decoration: none;
-    }
-
-    footer ul {
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        justify-content: flex-start;
-        flex: 1 0 0;
-        text-decoration: none;
-
-        display: flex;
-        width: 20%;
-        align-items: center;
-        gap: 16px;
-    }
-
-    .top {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 313px;
-        align-self: stretch;
-        flex-direction: row;
-        text-decoration: none;
-    }
-
-
-    #icons {
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        gap: 16px;
-        flex: 1 0 0;
-    }
-
-    #copyright {
-        align-self: stretch;
-        color: var(--lightlight, #F7F0E6);
-        text-align: center;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 140%;
-    }
-
-    /*--------------- CULTURE PAGE --------------*/
-    /*-------- BANNER ---------*/
-    #banner-culture {
-        display: flex;
-        height: 454px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        flex-shrink: 0;
-        background-image: url(img/discoverculture.jpg);
-        background-size: cover;
-    }
-
-    .section-banner-text {
-        display: flex;
-        width: 1280px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 48px;
-    }
-
-    /*--------- ABOUT CULTURE ----------*/
-    #about-culture {
-        display: flex;
-        padding: 80px 114px 80px 117px;
-        flex-direction: column;
-        align-items: center;
-        gap: 48px;
-        background-color: #172B54;
-    }
-
-    #cultures {
-        background-color: var(--lightlight, #F7F0E6);
-    }
-
-    #intro-culture {
-        display: flex;
-        padding: 80px;
-        align-items: center;
-        gap: 80px;
-    }
-
-    .about-top-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        align-self: stretch;
-    }
-
-    .short-culture-content {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-        flex: 1 0 0;
-    }
-
-    .two-items {
-        display: flex;
-        align-items: flex-start;
-        gap: 24px;
-        align-self: stretch;
-    }
-
-    #content-intro-culture {
-        display: flex;
-        padding: 32px 0px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 64px;
-        flex: 1 0 0;
-    }
-
-
-    /*------------ CUISINE PAGE ------------*/
-    #banner-cuisine {
-        display: flex;
-        height: 454px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        flex-shrink: 0;
-        background-image: url(img/foodbanner.jpg);
-        background-size: cover;
-    }
-
-    #about-cuisine {
-        display: flex;
-        padding: 40px 80px;
-        flex-direction: column;
-        align-items: center;
-        gap: 48px;
-        background: var(--navy, #172B54);
-    }
-
-    /*-------CARD----------*/
-    h3 {
-        color: var(--lightlight, #F7F0E6);
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    .card {
-        display: flex;
-        max-width: 390px;
-        height: 538px;
-        flex-direction: column;
-        flex-shrink: 0;
-
-        border-radius: 10px;
-        border: 1px solid var(--cool-gray-20, #DDE1E6);
-        background: #AE8242;
-    }
-
-    .montserrat-16 {
-        color: var(--lightlight, #F7F0E6);
-        font-size: 16px;
-        line-height: 110%;
-    }
-
-    #cards {
-        display: flex;
-        width: 100%;
-        height: auto;
-        justify-content: space-between;
-        align-items: flex-start;
-        gap: auto;
-        flex-wrap: wrap;
-    }
-
-    .title-food {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-    }
-
-    .content-food {
-        display: flex;
-        padding: 24px 16px 16px 16px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-        align-self: stretch;
-    }
-
-    .body-food {
-        align-self: stretch;
-        color: var(--lightlight, #F7F0E6);
-
-        font-style: normal;
-        font-weight: 400;
-        line-height: 120%;
-    }
-
-
-    /*--------------CONTACT PAGE-------------*/
-    #contact-banner {
-        display: flex;
-        background: var(--navy, #172B54);
-        height: 639px;
-        padding: 80px;
-        align-items: flex-start;
-        gap: 127px;
-        flex-shrink: 0;
-    }
-
-    #contact-right {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 48px;
-    }
-
-    #contact-text {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        align-self: stretch;
-    }
-
-    #input-name {
-        display: flex;
-        align-items: flex-start;
-        gap: 16px;
-        align-self: stretch;
-        font-size: 14px;
-    }
-
-    #form-layout {
-        display: flex;
-        height: 357px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 43px;
-    }
-
-    .input-group {
-        display: flex;
-        flex-direction: column;
-        gap: 8px;
-        align-self: stretch;
-        align-items: flex-start;
-        font-size: 14px;
-        color: var(--navy, #172B54);
-    }
-
-    input[type="text"],
-    textarea {
-        background-color: var(--beige, #D6C1A6);
-        color: #172B54;
-        display: flex;
-        height: 48px;
-        padding: 2% 8%;
-        align-items: flex-start;
-        gap: 8px;
-        align-self: stretch;
-    }
-
-    #email {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 4px;
-        align-self: stretch;
-    }
-
-
-    button {
-        background: var(--light, #E7DCCA);
-        display: flex;
-        width: 289px;
-        height: 48px;
-        padding: 16px 12px;
-        justify-content: center;
-        align-items: center;
-        color: var(--navy, #172B54);
-        font-size: 16px;
-        transition: background-color 0.3s, color 0.3s;
-    }
-    button:hover {
-        background-color: #172B54;
-        color: #F7F0E6;
-    }
-
-    /*CHECKBOX*/
-
-    /* Apply box-sizing to all elements inside .checkbox-wrapper-4 */
-    .checkbox-wrapper-4 * {
-        box-sizing: border-box;
-    }
-
-    /* Style the label element */
+/*---------- NAVBAR -------*/
+#navbar {
+    display: flex;
+    height: 60px;
+    padding: 16px 80px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-bottom: 1px solid var(--cool-gray-20, #DDE1E6);
+    background: var(--light, #E7DCCA);
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #172B54;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 42px;
+    flex: 1 0 0;
+    background: var(--light, #E7DCCA);
+    text-decoration: none;
+}
+
+/*-------h1--------*/
+.h1-content {
+    color: var(--navy, #172B54);
+    font-family: 'Montserrat-bold';
+    font-size: 42px;
+    line-height: 120%;
+}
+
+.h2-content {
+    font-family: 'Montserrat-bold';
+    align-self: stretch;
+    color: var(--navy, #172B54);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+
+
+/* SUBTITLE */
+.subtitle {
+    color: var(--navy, #172B54);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*------- body font style ---------*/
+.body-white {
+    color: var(--lightlight, #F7F0E6);
+    align-self: stretch;
+    text-align: center;
+}
+
+/*------------- BANNER TYPO -----------*/
+.banner-typo {
+    color: var(--lightlight, #F7F0E6);
+    font-family: Montserrat-bold;
+    font-size: 54px;
+
+}
+
+.banner-subtitle {
+    color: var(--lightlight, #F7F0E6);
+    font-size: 42px;
+    line-height: 120%;
+}
+
+.mini-title {
+    color: var(--light, #E7DCCA);
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/*--------- VIDEO 시발 얘 수정해야함 -----------*/
+.video {
+    width: 100%;
+    max-width: 100%;
+    /* Set the maximum width to 100% of its container */
+}
+
+/*------------ button -----------*/
+.fake-btn {
+    display: flex;
+    height: 56px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--navy, #172B54);
+    background: var(--navy, #172B54);
+    color: var(--default-white, #F7F0E6);
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.fake-btn:hover {
+    background-color: var(--default-white, #F7F0E6);
+    color: var(--navy, #172B54);
+}
+
+
+/* ------------ INTRO ----------------*/
+#article1 {
+    display: flex;
+    height: 317px;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-shrink: 0;
+    background: var(--navy, #172B54);
+}
+
+#title {
+    color: var(--lightlight, #F7F0E6);
+    font-family: Montserrat-bold;
+    text-align: center;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+#subtitle {
+    color: var(--lightlight, #F7F0E6);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+/*-----Light Layout------*/
+.light-layout {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    gap: 80px;
+    background-color: #F7F0E6;
+    color: #172B54;
+    flex-wrap: wrap;
+}
+
+/* -------- Beige Layout -----------*/
+.beige-layout {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    gap: 80px;
+    background-color: #E7DCCA;
+    color: #172B54;
+    flex-wrap: wrap;
+}
+
+/*---------Layout content ----------*/
+.layout-content {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+
+
+
+/* -----------INTRO CUISINE BANNER ----------*/
+#article3 {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    gap: 80px;
+    background-color: #E7DCCA;
+    color: #172B54;
+}
+
+#intro-cuisine {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+/*------------ GALLERY ------------*/
+#gallery-banner {
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+    background-color: #F7F0E6;
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.gallery_img_container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.h1-for-gallery {
+    color: var(--navy, #172B54);
+    text-align: center;
+    font-family: Montserrat-bold;
+    font-size: 42px;
+    line-height: 120%;
+}
+
+/*------------------- FOOTER --------------*/
+#footer {
+    display: flex;
+    padding: 48px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    background: #15274A;
+}
+
+footer a {
+    color: var(--lightlight, #F7F0E6);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-start;
+    flex: 1 0 0;
+    text-decoration: none;
+
+    display: flex;
+    width: 20%;
+    align-items: center;
+    gap: 16px;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 313px;
+    align-self: stretch;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+
+#icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+#copyright {
+    align-self: stretch;
+    color: var(--lightlight, #F7F0E6);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+/*--------------- CULTURE PAGE --------------*/
+/*-------- BANNER ---------*/
+#banner-culture {
+    display: flex;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background-image: url(img/discoverculture.jpg);
+    background-size: cover;
+}
+
+.section-banner-text {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+/*--------- ABOUT CULTURE ----------*/
+#about-culture {
+    display: flex;
+    padding: 80px 114px 80px 117px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    background-color: #172B54;
+}
+
+#cultures {
+    background-color: var(--lightlight, #F7F0E6);
+}
+
+#intro-culture {
+    display: flex;
+    padding: 80px;
+    align-items: center;
+    gap: 80px;
+}
+
+.about-top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.short-culture-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+}
+
+.two-items {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+#content-intro-culture {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 64px;
+    flex: 1 0 0;
+}
+
+
+/*------------ CUISINE PAGE ------------*/
+#banner-cuisine {
+    display: flex;
+    height: 454px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background-image: url(img/foodbanner.jpg);
+    background-size: cover;
+}
+
+#about-cuisine {
+    display: flex;
+    padding: 40px 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    background: var(--navy, #172B54);
+}
+
+/*-------CARD----------*/
+h3 {
+    color: var(--lightlight, #F7F0E6);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card {
+    display: flex;
+    max-width: 390px;
+    height: 538px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    border-radius: 10px;
+    border: 1px solid var(--cool-gray-20, #DDE1E6);
+    background: #AE8242;
+}
+
+.montserrat-16 {
+    color: var(--lightlight, #F7F0E6);
+    font-size: 16px;
+    line-height: 110%;
+}
+
+#cards {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: auto;
+    flex-wrap: wrap;
+}
+
+.title-food {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.content-food {
+    display: flex;
+    padding: 24px 16px 16px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.body-food {
+    align-self: stretch;
+    color: var(--lightlight, #F7F0E6);
+
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+
+/*--------------CONTACT PAGE-------------*/
+#contact-banner {
+    display: flex;
+    background: var(--navy, #172B54);
+    height: 639px;
+    padding: 80px;
+    align-items: flex-start;
+    gap: 127px;
+    flex-shrink: 0;
+}
+
+#contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+#contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+#input-name {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    font-size: 14px;
+}
+
+#form-layout {
+    display: flex;
+    height: 357px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 43px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-self: stretch;
+    align-items: flex-start;
+    font-size: 14px;
+    color: var(--navy, #172B54);
+}
+
+input[type="text"],
+textarea {
+    background-color: var(--beige, #D6C1A6);
+    color: #172B54;
+    display: flex;
+    height: 48px;
+    padding: 2% 8%;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+}
+
+#email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    align-self: stretch;
+}
+
+
+button {
+    background: var(--light, #E7DCCA);
+    display: flex;
+    width: 289px;
+    height: 48px;
+    padding: 16px 12px;
+    justify-content: center;
+    align-items: center;
+    color: var(--navy, #172B54);
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #172B54;
+    color: #F7F0E6;
+}
+
+/*CHECKBOX*/
+
+/* Apply box-sizing to all elements inside .checkbox-wrapper-4 */
+.checkbox-wrapper-4 * {
+    box-sizing: border-box;
+}
+
+/* Style the label element */
+.checkbox-wrapper-4 .cbx {
+    /* Disable text selection */
+    -webkit-user-select: none;
+    user-select: none;
+
+    /* Cursor style on hover */
+    cursor: pointer;
+
+    /* Padding, border-radius, and hover transition */
+    padding: 6px 8px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    display: inline-block;
+
+    color: #D6C1A6;
+    font-size: 12px;
+}
+
+/* Add margin to labels except the last one for spacing */
+.checkbox-wrapper-4 .cbx:not(:last-child) {
+    margin-right: 6px;
+}
+
+/* Hover effect on label */
+.checkbox-wrapper-4 .cbx:hover {
+    background: rgba(0, 119, 255, 0.06);
+}
+
+/* Style the <span> elements inside the label */
+.checkbox-wrapper-4 .cbx span {
+    float: left;
+    vertical-align: middle;
+    transform: translate3d(0, 0, 0);
+}
+
+/* Style the custom checkbox icon (first <span>) */
+.checkbox-wrapper-4 .cbx span:first-child {
+    /* Checkbox icon styling */
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    transform: scale(1);
+    border: 1px solid #D6C1A6;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 1px rgba(0, 16, 75, 0.05);
+}
+
+/* Style the SVG path inside the custom checkbox icon */
+.checkbox-wrapper-4 .cbx span:first-child svg {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    fill: none;
+    stroke: #172B54;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+    transform: translate3d(0, 0, 0);
+}
+
+/* Style the text part of the label */
+.checkbox-wrapper-4 .cbx span:last-child {
+    padding-left: 8px;
+    line-height: 18px;
+}
+
+/* Styles for the custom checkbox icon when checked */
+.checkbox-wrapper-4 .cbx:hover span:first-child {
+    border-color: #D6C1A6;
+}
+
+.checkbox-wrapper-4 .inp-cbx {
+    position: absolute;
+    visibility: hidden;
+}
+
+.checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child {
+    background: #E7DCCA;
+    border-color: #E7DCCA;
+    animation: wave-4 0.4s ease;
+}
+
+.checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child svg {
+    stroke-dashoffset: 0;
+}
+
+/* Styling for the SVG used as an inline element */
+.checkbox-wrapper-4 .inline-svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 640px) {
     .checkbox-wrapper-4 .cbx {
-        /* Disable text selection */
-        -webkit-user-select: none;
-        user-select: none;
-
-        /* Cursor style on hover */
-        cursor: pointer;
-
-        /* Padding, border-radius, and hover transition */
-        padding: 6px 8px;
-        border-radius: 6px;
-        overflow: hidden;
-        transition: all 0.2s ease;
+        width: 100%;
         display: inline-block;
-
-        color: #D6C1A6;
-        font-size: 12px;
     }
+}
 
-    /* Add margin to labels except the last one for spacing */
-    .checkbox-wrapper-4 .cbx:not(:last-child) {
-        margin-right: 6px;
+/* Keyframe animations for the checkbox animation */
+@-moz-keyframes wave-4 {
+    50% {
+        transform: scale(0.9);
     }
+}
 
-    /* Hover effect on label */
-    .checkbox-wrapper-4 .cbx:hover {
-        background: rgba(0, 119, 255, 0.06);
+@-webkit-keyframes wave-4 {
+    50% {
+        transform: scale(0.9);
     }
+}
 
-    /* Style the <span> elements inside the label */
-    .checkbox-wrapper-4 .cbx span {
-        float: left;
-        vertical-align: middle;
-        transform: translate3d(0, 0, 0);
+@-o-keyframes wave-4 {
+    50% {
+        transform: scale(0.9);
     }
+}
 
-    /* Style the custom checkbox icon (first <span>) */
-    .checkbox-wrapper-4 .cbx span:first-child {
-        /* Checkbox icon styling */
-        position: relative;
-        width: 18px;
-        height: 18px;
-        border-radius: 4px;
-        transform: scale(1);
-        border: 1px solid #D6C1A6;
-        transition: all 0.2s ease;
-        box-shadow: 0 1px 1px rgba(0, 16, 75, 0.05);
-    }
-
-    /* Style the SVG path inside the custom checkbox icon */
-    .checkbox-wrapper-4 .cbx span:first-child svg {
-        position: absolute;
-        top: 3px;
-        left: 2px;
-        fill: none;
-        stroke: #172B54;
-        stroke-width: 2;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke-dasharray: 16px;
-        stroke-dashoffset: 16px;
-        transition: all 0.3s ease;
-        transition-delay: 0.1s;
-        transform: translate3d(0, 0, 0);
-    }
-
-    /* Style the text part of the label */
-    .checkbox-wrapper-4 .cbx span:last-child {
-        padding-left: 8px;
-        line-height: 18px;
-    }
-
-    /* Styles for the custom checkbox icon when checked */
-    .checkbox-wrapper-4 .cbx:hover span:first-child {
-        border-color: #D6C1A6;
-    }
-
-    .checkbox-wrapper-4 .inp-cbx {
-        position: absolute;
-        visibility: hidden;
-    }
-
-    .checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child {
-        background: #E7DCCA;
-        border-color: #E7DCCA;
-        animation: wave-4 0.4s ease;
-    }
-
-    .checkbox-wrapper-4 .inp-cbx:checked+.cbx span:first-child svg {
-        stroke-dashoffset: 0;
-    }
-
-    /* Styling for the SVG used as an inline element */
-    .checkbox-wrapper-4 .inline-svg {
-        position: absolute;
-        width: 0;
-        height: 0;
-        pointer-events: none;
-        user-select: none;
-    }
-
-    /* Media query for smaller screens */
-    @media screen and (max-width: 640px) {
-        .checkbox-wrapper-4 .cbx {
-            width: 100%;
-            display: inline-block;
-        }
-    }
-
-    /* Keyframe animations for the checkbox animation */
-    @-moz-keyframes wave-4 {
-        50% {
-            transform: scale(0.9);
-        }
-    }
-
-    @-webkit-keyframes wave-4 {
-        50% {
-            transform: scale(0.9);
-        }
-    }
-
-    @-o-keyframes wave-4 {
-        50% {
-            transform: scale(0.9);
-        }
-    }
-
-    @keyframes wave-4 {
-        50% {
-            transform: scale(0.9);
-        }
-    }
-
-    /* For tablets and mobile */
-    @media (max-width: 1279px) {
-        
+@keyframes wave-4 {
+    50% {
+        transform: scale(0.9);
     }
 }
