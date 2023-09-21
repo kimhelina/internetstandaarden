@@ -69,7 +69,6 @@ body {
         font-family: 'Montserrat-bold';
         font-size: 42px;
         line-height: 120%;
-        /* 50.4px */
     }
 
     .h2-content {
@@ -79,7 +78,6 @@ body {
         font-size: 32px;
         font-weight: 700;
         line-height: 120%;
-        /* 32px */
     }
 
 
@@ -429,7 +427,7 @@ body {
     }
 
     /*-------CARD----------*/
-    .card-title {
+    h3 {
         color: var(--lightlight, #F7F0E6);
         font-size: 20px;
         font-weight: 700;
@@ -719,5 +717,10 @@ body {
         50% {
             transform: scale(0.9);
         }
+    }
+
+    /* For tablets and mobile */
+    @media (max-width: 1279px) {
+        
     }
 }
