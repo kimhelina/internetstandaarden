@@ -170,7 +170,7 @@ video {
     background: var(--navy, #172B54);
 }
 
-#title {
+h4 {
     color: var(--lightlight, #F7F0E6);
     font-family: Montserrat-bold;
     text-align: center;
