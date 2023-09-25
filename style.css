@@ -36,7 +36,6 @@ body {
     height: 50%;
     padding: 1% 8%;
     align-items: center;
-    border-bottom: 1px solid var(--cool-gray-20, #DDE1E6);
     background: var(--light, #E7DCCA);
 }
 
@@ -69,7 +68,7 @@ nav ul {
 .h2-content {
     font-family: 'Montserrat-bold';
     color: var(--navy, #172B54);
-    font-size: 32px;
+    font-size: 1.8em;
     font-weight: 700;
     line-height: 120%;
 }
@@ -78,11 +77,10 @@ nav ul {
 /* SUBTITLE */
 .subtitle {
     color: var(--navy, #172B54);
-    font-size: 20px;
+    font-size: 1.1em;
     font-style: normal;
     font-weight: 400;
     line-height: 120%;
-    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
@@ -92,34 +90,45 @@ nav ul {
     text-align: center;
 }
 
-/*------------- BANNER TYPO -----------*/
+/*------------- BANNER LAY OUT -----------*/
+.banner {
+    display: flex;
+    height: 25em;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-size: cover;
+}
+
 .banner-typo {
     color: var(--lightlight, #F7F0E6);
     font-family: Montserrat-bold;
-    font-size: 54px;
+    font-size: 3em;
+    line-height: normal;
 }
 
 .banner-subtitle {
     color: var(--lightlight, #F7F0E6);
-    font-size: 42px;
+    font-size: 2.2em;
     line-height: 120%;
 }
 
 .mini-title {
     color: var(--light, #E7DCCA);
     text-align: center;
-    font-size: 20px;
-    letter-spacing: 1px;
+    font-size: 1em;
     text-transform: uppercase;
 }
 
 
 .video {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 = 0.5625) */
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (9 / 16 = 0.5625) */
     overflow: hidden;
     /* Set the maximum width to 100% of its container */
 }
+
 video {
     position: absolute;
     top: 0;
@@ -135,7 +144,7 @@ video {
     padding: 4%;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--navy, #172B54);
+    border: 0.1em solid var(--navy, #172B54);
     background: var(--navy, #172B54);
     color: var(--default-white, #F7F0E6);
     text-decoration: none;
@@ -156,7 +165,7 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 2.4em;
     flex-shrink: 0;
     background: var(--navy, #172B54);
 }
@@ -165,7 +174,7 @@ video {
     color: var(--lightlight, #F7F0E6);
     font-family: Montserrat-bold;
     text-align: center;
-    font-size: 42px;
+    font-size: 2.2em;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -173,7 +182,7 @@ video {
 
 #subtitle {
     color: var(--lightlight, #F7F0E6);
-    font-size: 32px;
+    font-size: 1.8em;
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
@@ -256,7 +265,7 @@ video {
 
 footer a {
     color: var(--lightlight, #F7F0E6);
-    font-size: 16px;
+    font-size: 1em;
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
@@ -275,14 +284,13 @@ footer ul {
     display: flex;
     width: 20%;
     align-items: center;
-    gap: 16px;
+    gap: 1em;
 }
 
 .top {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 313px;
     align-self: stretch;
     flex-direction: row;
     text-decoration: none;
@@ -293,7 +301,7 @@ footer ul {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 16px;
+    gap: 1em;
     flex: 1 0 0;
 }
 
@@ -301,40 +309,31 @@ footer ul {
     align-self: stretch;
     color: var(--lightlight, #F7F0E6);
     text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 140%;
+    font-size: 0.8em;
 }
 
 /*--------------- CULTURE PAGE --------------*/
 /*-------- BANNER ---------*/
 #banner-culture {
-    display: flex;
-    height: 454px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
     background-image: url(img/discoverculture.jpg);
-    background-size: cover;
 }
 
 .section-banner-text {
     display: flex;
-    width: 1280px;
+    width: 80em;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 48px;
+    gap: 2.5em;
 }
 
 /*--------- ABOUT CULTURE ----------*/
 #about-culture {
     display: flex;
-    padding: 80px 114px 80px 117px;
+    padding: 4em 12em;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
+    gap: 4em;
     background-color: #172B54;
 }
 
@@ -343,88 +342,79 @@ footer ul {
 }
 
 #intro-culture {
+    flex-wrap: wrap;
     display: flex;
-    padding: 80px;
+    padding: 4em;
     align-items: center;
-    gap: 80px;
 }
 
 .about-top-text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
-    align-self: stretch;
+    gap: 0.5em;
 }
 
 .short-culture-content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 16px;
+    gap: 1em;
     flex: 1 0 0;
 }
 
 .two-items {
     display: flex;
     align-items: flex-start;
-    gap: 24px;
+    gap: 1.5em;
     align-self: stretch;
 }
 
 #content-intro-culture {
     display: flex;
-    padding: 32px 0px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 64px;
+    gap: 3.2em;
     flex: 1 0 0;
 }
 
 
 /*------------ CUISINE PAGE ------------*/
 #banner-cuisine {
-    display: flex;
-    height: 454px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
     background-image: url(img/foodbanner.jpg);
-    background-size: cover;
 }
 
 #about-cuisine {
     display: flex;
-    padding: 40px 80px;
+    padding: 2.5em 4em;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
+    gap: 3em;
     background: var(--navy, #172B54);
 }
 
 /*-------CARD----------*/
 h3 {
     color: var(--lightlight, #F7F0E6);
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 1.3em;
+    text-transform: uppercase;
 }
 
 .card {
     display: flex;
-    max-width: 390px;
-    height: 538px;
+    max-width: 23em;
+    height: 28em;
     flex-direction: column;
     flex-shrink: 0;
 
-    border-radius: 10px;
-    border: 1px solid var(--cool-gray-20, #DDE1E6);
+    border-radius: 1em;
+    border: 0.1em solid var(--cool-gray-20, #DDE1E6);
     background: #AE8242;
 }
 
 .montserrat-16 {
     color: var(--lightlight, #F7F0E6);
-    font-size: 16px;
+    font-size: 1em;
     line-height: 110%;
 }
 
@@ -442,17 +432,8 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 4px;
 }
 
-.content-food {
-    display: flex;
-    padding: 24px 16px 16px 16px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
-}
 
 .body-food {
     align-self: stretch;
@@ -468,71 +449,60 @@ h3 {
 #contact-banner {
     display: flex;
     background: var(--navy, #172B54);
-    height: 639px;
-    padding: 80px;
+    height: 30em;
+    padding: 4em;
     align-items: flex-start;
-    gap: 127px;
-    flex-shrink: 0;
+    gap: 5em;
 }
 
 #contact-right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 48px;
+    gap: 3em;
 }
 
 #contact-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
+    gap: 1.2em;
 }
 
 #input-name {
     display: flex;
     align-items: flex-start;
-    gap: 16px;
-    align-self: stretch;
-    font-size: 14px;
+    gap: 3em;
     text-align: left;
-
 }
 
 #form-layout {
     display: flex;
-    height: 357px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 43px;
+    gap: 2em;
 }
 
 .input-group {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 1em;
     align-items: flex-start;
-    font-size: 14px;
-    color: var(--navy, #172B54);
+    font-size: 0.8em;
 }
 
 input[type="text"],
 textarea {
     background-color: var(--beige, #D6C1A6);
-    color: #172B54;
     display: flex;
-    height: 48px;
+    height: 3em;
     padding: 2% 8%;
     align-items: flex-start;
-    gap: 8px;
 }
 
 #email {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
     align-self: stretch;
 }
 
@@ -540,13 +510,13 @@ textarea {
 button {
     background: var(--light, #E7DCCA);
     display: flex;
-    width: 289px;
-    height: 48px;
-    padding: 16px 12px;
+    width: 25em;
+    height: 3em;
+    padding: 1em 0.8em;
     justify-content: center;
     align-items: center;
     color: var(--navy, #172B54);
-    font-size: 16px;
+    font-size: 1em;
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -572,24 +542,24 @@ button:hover {
     cursor: pointer;
 
     /* Padding, border-radius, and hover transition */
-    padding: 6px 8px;
-    border-radius: 6px;
+    padding: 0.2em 0.5em;
+    border-radius: 0.3em;
     overflow: hidden;
     transition: all 0.2s ease;
     display: inline-block;
 
     color: #D6C1A6;
-    font-size: 12px;
+    font-size: 0.6em;
 }
 
 /* Add margin to labels except the last one for spacing */
 .checkbox-wrapper-4 .cbx:not(:last-child) {
-    margin-right: 6px;
+    margin-right: 0.2em;
 }
 
 /* Hover effect on label */
 .checkbox-wrapper-4 .cbx:hover {
-    background: rgba(0, 119, 255, 0.06);
+    background: #1e3564;
 }
 
 /* Style the <span> elements inside the label */
@@ -603,27 +573,27 @@ button:hover {
 .checkbox-wrapper-4 .cbx span:first-child {
     /* Checkbox icon styling */
     position: relative;
-    width: 18px;
-    height: 18px;
-    border-radius: 4px;
+    width: 1.1em;
+    height: 1.1em;
+    border-radius: 0.2em;
     transform: scale(1);
-    border: 1px solid #D6C1A6;
+    border: 0.1em solid #D6C1A6;
     transition: all 0.2s ease;
-    box-shadow: 0 1px 1px rgba(0, 16, 75, 0.05);
+    box-shadow: 0 0.1em 0.1em rgba(0, 16, 75, 0.05);
 }
 
 /* Style the SVG path inside the custom checkbox icon */
 .checkbox-wrapper-4 .cbx span:first-child svg {
     position: absolute;
-    top: 3px;
-    left: 2px;
+    top: 0.2em;
+    left: 0.1em;
     fill: none;
     stroke: #172B54;
     stroke-width: 2;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-dasharray: 16px;
-    stroke-dashoffset: 16px;
+    stroke-dasharray: 1em;
+    stroke-dashoffset: 1em;
     transition: all 0.3s ease;
     transition-delay: 0.1s;
     transform: translate3d(0, 0, 0);
@@ -631,8 +601,8 @@ button:hover {
 
 /* Style the text part of the label */
 .checkbox-wrapper-4 .cbx span:last-child {
-    padding-left: 8px;
-    line-height: 18px;
+    padding-left: 0.5em;
+    line-height: 1.1em;
 }
 
 /* Styles for the custom checkbox icon when checked */
