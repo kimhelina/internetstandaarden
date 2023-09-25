@@ -100,14 +100,14 @@ nav ul {
     background-size: cover;
 }
 
-.banner-typo {
+h1 {
     color: var(--lightlight, #F7F0E6);
     font-family: Montserrat-bold;
     font-size: 3em;
     line-height: normal;
 }
 
-.banner-subtitle {
+h2 {
     color: var(--lightlight, #F7F0E6);
     font-size: 2.2em;
     line-height: 120%;
