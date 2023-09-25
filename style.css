@@ -61,7 +61,7 @@ nav ul {
 .h1-content {
     color: var(--navy, #172B54);
     font-family: 'Montserrat-bold';
-    font-size: 3em;
+    font-size: 2.5em;
     line-height: 120%;
 }
 
@@ -430,6 +430,7 @@ h3 {
 
 .title-food {
     display: flex;
+    padding: 1em;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -438,10 +439,7 @@ h3 {
 .body-food {
     align-self: stretch;
     color: var(--lightlight, #F7F0E6);
-
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
+    padding: 1em;
 }
 
 
