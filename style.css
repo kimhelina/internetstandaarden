@@ -137,6 +137,13 @@ video {
     height: 100%;
 }
 
+img {
+    max-width: 100%;
+    /* Make sure the image doesn't exceed its container's width */
+    height: auto;
+    /* Allow the image to scale proportionally */
+}
+
 /*------------ button -----------*/
 .fake-btn {
     display: flex;
@@ -478,6 +485,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    flex-wrap: wrap;
     gap: 2em;
 }
 
@@ -487,6 +495,8 @@ h3 {
     gap: 1em;
     align-items: flex-start;
     font-size: 0.8em;
+    flex-wrap: wrap;
+
 }
 
 input[type="text"],
