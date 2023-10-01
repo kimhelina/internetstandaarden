@@ -538,7 +538,7 @@ button:hover {
     color: #F7F0E6;
 }
 
-/*CHECKBOX*/
+/*CHECKBOX; this code is from https://getcssscan.com/css-checkboxes-examples */
 
 /* Apply box-sizing to all elements inside .checkbox-wrapper-4 */
 .checkbox-wrapper-4 * {
