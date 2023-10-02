@@ -25,9 +25,6 @@ body {
     font-family: 'Montserrat';
     color: var(--navy, #172B54);
     font-size: 1.1em;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 120%;
 }
 
 /*---------- NAVBAR -------*/
@@ -120,7 +117,7 @@ h2 {
     text-transform: uppercase;
 }
 
-
+/*---------- video --------*/
 .video-index {
     position: relative;
     padding-bottom: 56.25%;
@@ -139,12 +136,10 @@ video {
 
 img {
     max-width: 100%;
-    /* Make sure the image doesn't exceed its container's width */
     height: auto;
-    /* Allow the image to scale proportionally */
 }
 
-/*------------ button -----------*/
+/*------------ fake button -----------*/
 .fake-btn {
     display: flex;
     height: 20%;
@@ -442,7 +437,6 @@ h3 {
     align-items: flex-start;
 }
 
-
 .body-food {
     align-self: stretch;
     color: var(--lightlight, #F7F0E6);
@@ -471,7 +465,6 @@ h3 {
     align-items: flex-start;
     gap: 3em;
     flex-wrap: wrap;
-
 }
 
 #contact-text {
@@ -519,7 +512,6 @@ textarea {
     align-self: stretch;
 }
 
-
 button {
     background: var(--light, #E7DCCA);
     display: flex;
@@ -539,7 +531,6 @@ button:hover {
 }
 
 /*CHECKBOX; this code is from https://getcssscan.com/css-checkboxes-examples */
-
 /* Apply box-sizing to all elements inside .checkbox-wrapper-4 */
 .checkbox-wrapper-4 * {
     box-sizing: border-box;
