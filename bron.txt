@@ -12,3 +12,8 @@ checkbox code:
 - Ik heb deze code van internet gehaald, maar ik heb gewijzigd zodat de code beter in mijn site past: zoals kleur, grootte (px naar em).
 - In de CSS bestand staan de comments welk class wat voor functie uitvoert.
 https://getcssscan.com/css-checkboxes-examples
+
+
+Gebruik maken van audit tool:
+https://www.websitecarbon.com/website/kimhelina-github-io-internetstandaarden/
+Volgens de audit tool, zegt hij dat mijn site 62% cleaner is dan de andere websites.
