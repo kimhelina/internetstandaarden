@@ -30,7 +30,6 @@ body {
     line-height: 120%;
 }
 
-@media screen and (min-width: 1024px) {
 /*---------- NAVBAR -------*/
 #navbar {
     display: flex;
@@ -680,9 +679,3 @@ button:hover {
         transform: scale(0.9);
     }
 }
-}
-@media screen and (max-width: 767px) {
-    /* Styles for screens with a width of 767px or smaller (typical mobile screens) */
-  
-    /* Add or override styles for smaller screens here */
-  }
