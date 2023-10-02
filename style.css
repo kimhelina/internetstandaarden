@@ -255,7 +255,7 @@ h4 {
 }
 
 /*------------------- FOOTER --------------*/
-#footer {
+footer {
     display: flex;
     padding: 3rem 5rem;
     flex-direction: column;
